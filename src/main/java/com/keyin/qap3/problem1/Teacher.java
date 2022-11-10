@@ -14,10 +14,8 @@ public class Teacher extends Person{
 
     @Override
     public String toString() {
-        return super.toString() + " Teacher{" +
-                "classSubject='" + classSubject + '\'' +
-                ", annualSalary=" + annualSalary +
-                '}';
+        return super.toString() + ", Teaching Subject: " + classSubject +
+                ", Annual Salary: " + annualSalary;
     }
 
     // Getters and Setters

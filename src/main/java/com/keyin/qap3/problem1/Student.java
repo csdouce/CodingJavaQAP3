@@ -14,10 +14,9 @@ public class Student extends Person{
 
     @Override
     public String toString() {
-        return super.toString() + " Student " +
-                "myIdNum='" + myIdNum + '\'' +
-                ", myGPA=" + myGPA +
-                '}';
+        return super.toString() + ", Student " +
+                "ID Num: '" + myIdNum + '\'' +
+                ", GPA: " + myGPA;
     }
 
     // Getters and Setters

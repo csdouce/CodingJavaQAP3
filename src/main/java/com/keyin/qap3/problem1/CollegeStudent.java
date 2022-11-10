@@ -14,10 +14,8 @@ public class CollegeStudent extends Student{
 
     @Override
     public String toString() {
-        return super.toString() + " CollegeStudent{" +
-                "studentMajor='" + studentMajor + '\'' +
-                ", schoolYear=" + schoolYear +
-                '}';
+        return super.toString() + ", College Major: " + studentMajor +
+                ", Year in School: " + schoolYear;
     }
 
     // Getters and Setters
